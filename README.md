@@ -1,5 +1,13 @@
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
+
+#What I Learned
+
+* Methods: put methods in the CLASS, outside of the CONSTRUCTOR function, which contains the STATE object. Remember, you need to call <code>super();</code> before you can create the state object using object literal syntax
+* DOM: there are native JavaScript objects like event that you can pass through HTML and use in your methods. Look through the event listeners like onClick and onChange to get a better idea of what events you reference 
+* JSX: you can insert JavaScript directly into your HTML element in your component by using curly <code> { } </code> braces.
+
+
 # Project Summary
 
 In this project we will create a react application that solves computer science toy problems and showcases them in a feed. The file structure has already been created for us but none of the functionality works. At the end of this project you should have an understanding of the following topics:
